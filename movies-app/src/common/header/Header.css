@@ -1,0 +1,28 @@
+.header{
+    background-color: #222;
+    height: 36px;
+    padding: 8px 32px 8px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    animation: app-logo-spin infinite 8s linear;
+    height: 35px;
+    background: #ff7f7f;
+}
+@keyframes app-logo-spin {
+    from { transform: scaleX(-1); }
+}
+
+.upcoming-header{
+    background-color: #ff9999;
+    text-align: center;
+    padding: 8px;
+    font-size: 1rem;
+}
+
+.heading{
+    padding: 8px;
+    
+}
